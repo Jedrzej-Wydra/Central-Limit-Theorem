@@ -1,6 +1,12 @@
 # Central Limit Theorem Meets the Exam Room
 author: Jędrzej Wydra
 
+## Short summary:
+Verified the Central Limit Theorem by simulating sample means from various distributions (uniform, t, chi-squared, Weibull, binomial, Poisson), showing convergence to normality as sample size increased.
+
+## Technical summary:
+Used NumPy, SciPy, and Matplotlib to generate synthetic samples, compute grouped sample means, and visualize their distributions. Verified asymptotic normality via simulation, highlighting reduced variance with larger sample sizes. No advanced metrics beyond visual convergence; focused on empirical illustration of CLT behavior.
+
 ## History
 It started as a simple experiment to double-check whether the Central Limit Theorem really works. Spoiler: it does. I took samples from uniform, t, chi-squared, Weibull, binomial, and Poisson distributions, then created new samples from the means of increasingly larger groups. Sure enough, as sample sizes grew, those means started looking suspiciously normal.
 
